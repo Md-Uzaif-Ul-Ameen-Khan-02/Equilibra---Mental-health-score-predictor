@@ -2,7 +2,7 @@
   "use strict";
 
   // Backend address: keep in sync with the port you start uvicorn on.
-  const API_BASE = "http://127.0.0.1:8001";
+  const API_BASE = "https://equilibra-mental-health-score-predictor.onrender.com";
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const form = $("#predict-form");
